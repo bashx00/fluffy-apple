@@ -1,9 +1,6 @@
 # Node.js specific:
 # Ignorer le répertoire des modules Node.js et les fichiers de log de débogage npm/yarn
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Environment variables:
 # Ignorer le fichier contenant les variables d'environnement sensibles
@@ -12,18 +9,13 @@ yarn-error.log*
 # Logs:
 # Ignorer les répertoires de logs et les fichiers de log génériques
 logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+
 
 # Application-specific files:
 # Ignorer le fichier JSON où sont stockés les messages
-messages.json
+Streamlogs
+Bans
 
 # Optional npm cache directory:
 # Ignorer le cache npm (optionnel)
 .npm
-
-
-
